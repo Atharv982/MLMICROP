@@ -1,0 +1,407 @@
+{
+  "status": "success",
+  "dataset_name": "UCI Student Performance",
+  "source_url": "https://archive.ics.uci.edu/dataset/320/student+performance",
+  "citation": "Cortez, P., & Silva, A. (2008). Using Data Mining to Predict Secondary School Student Performance.",
+  "files": {
+    "student_mat": {
+      "rows": 395,
+      "columns": 33,
+      "sha256": "e47f9ee225e1ee6e69b7564e6dac7123e80b8486677fe111f351964cef5dec80",
+      "grade_summary": {
+        "mean": 10.415189873417722,
+        "std": 4.5814426109978434,
+        "median": 11.0,
+        "min": 0,
+        "max": 20,
+        "q25": 8.0,
+        "q75": 14.0,
+        "pass_count": 265,
+        "fail_count": 130,
+        "pass_rate": 0.6708860759493671
+      }
+    },
+    "student_por": {
+      "rows": 649,
+      "columns": 33,
+      "sha256": "a7594a11d7771c0efe1a740824e0e833da9c4cad07c39a9766a874575563fb3f",
+      "grade_summary": {
+        "mean": 11.906009244992296,
+        "std": 3.230656242804805,
+        "median": 12.0,
+        "min": 0,
+        "max": 19,
+        "q25": 10.0,
+        "q75": 14.0,
+        "pass_count": 549,
+        "fail_count": 100,
+        "pass_rate": 0.8459167950693375
+      }
+    }
+  },
+  "combined": {
+    "total_rows": 1044,
+    "total_columns": 35,
+    "missing_values_total": 0,
+    "duplicate_rows": 0,
+    "grade_summary": {
+      "mean": 11.341954022988507,
+      "std": 3.8647958043836046,
+      "median": 11.0,
+      "min": 0,
+      "max": 20,
+      "q25": 10.0,
+      "q75": 14.0,
+      "pass_count": 814,
+      "fail_count": 230,
+      "pass_rate": 0.7796934865900383
+    },
+    "pass_fail_balance": {
+      "pass_ge_10": 814,
+      "fail_lt_10": 230,
+      "pass_rate_pct": 77.97
+    }
+  },
+  "categorical_features": {
+    "school": {
+      "GP": 772,
+      "MS": 272
+    },
+    "sex": {
+      "F": 591,
+      "M": 453
+    },
+    "address": {
+      "U": 759,
+      "R": 285
+    },
+    "famsize": {
+      "GT3": 738,
+      "LE3": 306
+    },
+    "Pstatus": {
+      "T": 923,
+      "A": 121
+    },
+    "Mjob": {
+      "other": 399,
+      "services": 239,
+      "at_home": 194,
+      "teacher": 130,
+      "health": 82
+    },
+    "Fjob": {
+      "other": 584,
+      "services": 292,
+      "teacher": 65,
+      "at_home": 62,
+      "health": 41
+    },
+    "reason": {
+      "course": 430,
+      "home": 258,
+      "reputation": 248,
+      "other": 108
+    },
+    "guardian": {
+      "mother": 728,
+      "father": 243,
+      "other": 73
+    },
+    "schoolsup": {
+      "no": 925,
+      "yes": 119
+    },
+    "famsup": {
+      "yes": 640,
+      "no": 404
+    },
+    "paid": {
+      "no": 824,
+      "yes": 220
+    },
+    "activities": {
+      "no": 528,
+      "yes": 516
+    },
+    "nursery": {
+      "yes": 835,
+      "no": 209
+    },
+    "higher": {
+      "yes": 955,
+      "no": 89
+    },
+    "internet": {
+      "yes": 827,
+      "no": 217
+    },
+    "romantic": {
+      "no": 673,
+      "yes": 371
+    },
+    "subject": {
+      "portuguese": 649,
+      "math": 395
+    }
+  },
+  "numeric_features": {
+    "age": {
+      "mean": 16.73,
+      "std": 1.24,
+      "min": 15.0,
+      "25%": 16.0,
+      "50%": 17.0,
+      "75%": 18.0,
+      "max": 22.0
+    },
+    "Medu": {
+      "mean": 2.6,
+      "std": 1.12,
+      "min": 0.0,
+      "25%": 2.0,
+      "50%": 3.0,
+      "75%": 4.0,
+      "max": 4.0
+    },
+    "Fedu": {
+      "mean": 2.39,
+      "std": 1.1,
+      "min": 0.0,
+      "25%": 1.0,
+      "50%": 2.0,
+      "75%": 3.0,
+      "max": 4.0
+    },
+    "traveltime": {
+      "mean": 1.52,
+      "std": 0.73,
+      "min": 1.0,
+      "25%": 1.0,
+      "50%": 1.0,
+      "75%": 2.0,
+      "max": 4.0
+    },
+    "studytime": {
+      "mean": 1.97,
+      "std": 0.83,
+      "min": 1.0,
+      "25%": 1.0,
+      "50%": 2.0,
+      "75%": 2.0,
+      "max": 4.0
+    },
+    "failures": {
+      "mean": 0.26,
+      "std": 0.66,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 0.0,
+      "max": 3.0
+    },
+    "famrel": {
+      "mean": 3.94,
+      "std": 0.93,
+      "min": 1.0,
+      "25%": 4.0,
+      "50%": 4.0,
+      "75%": 5.0,
+      "max": 5.0
+    },
+    "freetime": {
+      "mean": 3.2,
+      "std": 1.03,
+      "min": 1.0,
+      "25%": 3.0,
+      "50%": 3.0,
+      "75%": 4.0,
+      "max": 5.0
+    },
+    "goout": {
+      "mean": 3.16,
+      "std": 1.15,
+      "min": 1.0,
+      "25%": 2.0,
+      "50%": 3.0,
+      "75%": 4.0,
+      "max": 5.0
+    },
+    "Dalc": {
+      "mean": 1.49,
+      "std": 0.91,
+      "min": 1.0,
+      "25%": 1.0,
+      "50%": 1.0,
+      "75%": 2.0,
+      "max": 5.0
+    },
+    "Walc": {
+      "mean": 2.28,
+      "std": 1.29,
+      "min": 1.0,
+      "25%": 1.0,
+      "50%": 2.0,
+      "75%": 3.0,
+      "max": 5.0
+    },
+    "health": {
+      "mean": 3.54,
+      "std": 1.42,
+      "min": 1.0,
+      "25%": 3.0,
+      "50%": 4.0,
+      "75%": 5.0,
+      "max": 5.0
+    },
+    "absences": {
+      "mean": 4.43,
+      "std": 6.21,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 2.0,
+      "75%": 6.0,
+      "max": 75.0
+    },
+    "G1": {
+      "mean": 11.21,
+      "std": 2.98,
+      "min": 0.0,
+      "25%": 9.0,
+      "50%": 11.0,
+      "75%": 13.0,
+      "max": 19.0
+    },
+    "G2": {
+      "mean": 11.25,
+      "std": 3.29,
+      "min": 0.0,
+      "25%": 9.0,
+      "50%": 11.0,
+      "75%": 13.0,
+      "max": 19.0
+    },
+    "G3": {
+      "mean": 11.34,
+      "std": 3.86,
+      "min": 0.0,
+      "25%": 10.0,
+      "50%": 11.0,
+      "75%": 14.0,
+      "max": 20.0
+    }
+  },
+  "grade_distributions": {
+    "combined": {
+      "0": 53,
+      "1": 1,
+      "4": 1,
+      "5": 8,
+      "6": 18,
+      "7": 19,
+      "8": 67,
+      "9": 63,
+      "10": 153,
+      "11": 151,
+      "12": 103,
+      "13": 113,
+      "14": 90,
+      "15": 82,
+      "16": 52,
+      "17": 35,
+      "18": 27,
+      "19": 7,
+      "20": 1
+    },
+    "math": {
+      "0": 38,
+      "4": 1,
+      "5": 7,
+      "6": 15,
+      "7": 9,
+      "8": 32,
+      "9": 28,
+      "10": 56,
+      "11": 47,
+      "12": 31,
+      "13": 31,
+      "14": 27,
+      "15": 33,
+      "16": 16,
+      "17": 6,
+      "18": 12,
+      "19": 5,
+      "20": 1
+    },
+    "portuguese": {
+      "0": 15,
+      "1": 1,
+      "5": 1,
+      "6": 3,
+      "7": 10,
+      "8": 35,
+      "9": 35,
+      "10": 97,
+      "11": 104,
+      "12": 72,
+      "13": 82,
+      "14": 63,
+      "15": 49,
+      "16": 36,
+      "17": 29,
+      "18": 15,
+      "19": 2
+    }
+  },
+  "relationships": {
+    "studytime_vs_grade": [
+      {
+        "studytime": 1,
+        "avg_grade": 10.58,
+        "count": 317
+      },
+      {
+        "studytime": 2,
+        "avg_grade": 11.34,
+        "count": 503
+      },
+      {
+        "studytime": 3,
+        "avg_grade": 12.49,
+        "count": 162
+      },
+      {
+        "studytime": 4,
+        "avg_grade": 12.27,
+        "count": 62
+      }
+    ],
+    "absences_vs_grade": [
+      {
+        "bin": "0-2",
+        "avg_grade": 11.32,
+        "count": 549
+      },
+      {
+        "bin": "3-5",
+        "avg_grade": 11.68,
+        "count": 178
+      },
+      {
+        "bin": "6-10",
+        "avg_grade": 11.67,
+        "count": 202
+      },
+      {
+        "bin": "11-20",
+        "avg_grade": 10.35,
+        "count": 92
+      },
+      {
+        "bin": "21+",
+        "avg_grade": 10.43,
+        "count": 23
+      }
+    ]
+  }
+}
